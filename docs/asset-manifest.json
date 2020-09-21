@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.2bc0e36e.chunk.css",
-    "main.js": "/static/js/main.4555be92.chunk.js",
-    "main.js.map": "/static/js/main.4555be92.chunk.js.map",
+    "main.js": "/static/js/main.c41cfff9.chunk.js",
+    "main.js.map": "/static/js/main.c41cfff9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.47788c5d.js",
     "runtime-main.js.map": "/static/js/runtime-main.47788c5d.js.map",
-    "static/js/2.4ef10a9f.chunk.js": "/static/js/2.4ef10a9f.chunk.js",
-    "static/js/2.4ef10a9f.chunk.js.map": "/static/js/2.4ef10a9f.chunk.js.map",
+    "static/js/2.5b16df89.chunk.js": "/static/js/2.5b16df89.chunk.js",
+    "static/js/2.5b16df89.chunk.js.map": "/static/js/2.5b16df89.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bae79e4904991f4fc98b14a0bff941bf.js": "/precache-manifest.bae79e4904991f4fc98b14a0bff941bf.js",
+    "precache-manifest.1c7b43e97cd3b17b81d6f8690daa7c27.js": "/precache-manifest.1c7b43e97cd3b17b81d6f8690daa7c27.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.2bc0e36e.chunk.css.map": "/static/css/main.2bc0e36e.chunk.css.map",
-    "static/js/2.4ef10a9f.chunk.js.LICENSE.txt": "/static/js/2.4ef10a9f.chunk.js.LICENSE.txt",
+    "static/js/2.5b16df89.chunk.js.LICENSE.txt": "/static/js/2.5b16df89.chunk.js.LICENSE.txt",
     "static/media/avatar.jpg": "/static/media/avatar.f1d71f77.jpg",
     "static/media/bancolombia.png": "/static/media/bancolombia.e5900ad6.png",
     "static/media/bg.jpg": "/static/media/bg.e8119cbb.jpg",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.47788c5d.js",
-    "static/js/2.4ef10a9f.chunk.js",
+    "static/js/2.5b16df89.chunk.js",
     "static/css/main.2bc0e36e.chunk.css",
-    "static/js/main.4555be92.chunk.js"
+    "static/js/main.c41cfff9.chunk.js"
   ]
 }
