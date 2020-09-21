@@ -1,7 +1,7 @@
 {
   "name": "personalcv",
   "version": "1.9.0",
-  "description": "Material Kit React. Coded by Creative Tim",
+  "description": "personal cv",
   "private": true,
   "main": "src/index.js",
   "dependencies": {
