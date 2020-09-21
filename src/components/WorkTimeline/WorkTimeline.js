@@ -11,7 +11,6 @@ import PersonIcon from '@material-ui/icons/Person';
 import AspectRatioIcon from '@material-ui/icons/AspectRatio';
 import FreeBreakfastIcon from '@material-ui/icons/FreeBreakfast';
 import CodeIcon from '@material-ui/icons/Code';
-import RepeatIcon from '@material-ui/icons/Repeat';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 

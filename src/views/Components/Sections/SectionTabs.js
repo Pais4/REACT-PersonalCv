@@ -36,7 +36,7 @@ export default function SectionTabs() {
                       <div>
                         <Grid container spacing={3}>
                           <Grid item xs={6}>
-                            <img src={platzi} className={classes.img}/>
+                            <img src={platzi} className={classes.img} alt="Platzi"/>
                           </Grid>
                           <Grid item xs={6}>
                             <h4 className={classes.page}>
@@ -54,7 +54,7 @@ export default function SectionTabs() {
                       <div>
                         <Grid container spacing={3}>
                           <Grid item xs={6}>
-                            <img src={bancolombia} className={classes.img}/>
+                            <img src={bancolombia} className={classes.img} alt="Bancolombia"/>
                           </Grid>
                           <Grid item xs={6}>
                             <h4 className={classes.page}>
@@ -72,7 +72,7 @@ export default function SectionTabs() {
                       <div>
                         <Grid container spacing={3}>
                           <Grid item xs={6}>
-                            <img src={udemy} className={classes.img}/>
+                            <img src={udemy} className={classes.img} alt="Udemy"/>
                           </Grid>
                           <Grid item xs={6}>
                             <h4 className={classes.page}>
@@ -90,7 +90,7 @@ export default function SectionTabs() {
                       <div>
                         <Grid container spacing={3}>
                           <Grid item xs={6}>
-                            <img src={udemy} className={classes.img}/>
+                            <img src={udemy} className={classes.img} alt="Udemy"/>
                           </Grid>
                           <Grid item xs={6}>
                             <h4 className={classes.page}>
@@ -108,7 +108,7 @@ export default function SectionTabs() {
                       <div>
                         <Grid container spacing={3}>
                           <Grid item xs={6}>
-                            <img src={udemy} className={classes.img}/>
+                            <img src={udemy} className={classes.img} alt="Udemy"/>
                           </Grid>
                           <Grid item xs={6}>
                             <h4 className={classes.page}>

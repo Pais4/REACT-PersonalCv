@@ -30,13 +30,11 @@ const useStyles = makeStyles(styles);
 
 export default function ProfilePage(props) {
   const classes = useStyles();
-  const { ...rest } = props;
   const imageClasses = classNames(
     classes.imgRaised,
     classes.imgRoundedCircle,
     classes.imgFluid
   );
-  const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
 
   return (
     <div>
@@ -60,7 +58,7 @@ export default function ProfilePage(props) {
                       <i className={"fab fa-linkedin"} />
                     </Button>
                     <Button justIcon link className={classes.margin5} href="https://github.com/pais4" target="_blank">
-                    <i class="fab fa-github" />
+                    <i className="fab fa-github" />
                     </Button>
                   </div>
                 </div>
@@ -96,19 +94,19 @@ export default function ProfilePage(props) {
                       tabContent: (
                         <div>
                           <GridContainer justify="center">
-                            <GridItem xs={12} sm={12} md={6}>
+                            <GridItem xs={6}>
                               <MediaControlCard 
                                 title="Cesde" 
                                 letter='C' 
-                                study='Software development technician' 
+                                study='Software Dev Technician' 
                                 time='2019 - 2020 - Studying last semester' 
                                 />
                             </GridItem>
-                            <GridItem xs={12} sm={12} md={6}>
+                            <GridItem xs={6}>
                               <MediaControlCard 
                                 title="ITM" 
                                 letter='I' 
-                                study='Systems Engineer' 
+                                study='Systems Engineer Career' 
                                 time='2020 - Currently studying' 
                                 />
                             </GridItem>
@@ -122,17 +120,17 @@ export default function ProfilePage(props) {
                       tabIcon: Favorite,
                       tabContent: (
                         <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={6}>
+                          <GridItem xs={6}>
                           <div className={classes.title}>
                             <h4>JavaScript - Html - Css</h4>
                           </div>
                           <CustomLinearProgress
                             variant="determinate"
-                            color="default"
+                            color="gray"
                             value={80}
                           />
                           </GridItem>
-                          <GridItem xs={12} sm={12} md={6}>
+                          <GridItem xs={6}>
                             <div className={classes.title}>
                               <h4>React With Redux</h4>
                             </div>
@@ -142,7 +140,7 @@ export default function ProfilePage(props) {
                               value={60}
                             />
                           </GridItem>
-                          <GridItem xs={12} sm={12} md={6}>
+                          <GridItem xs={6}>
                           <div className={classes.title}>
                             <h4>React Native</h4>
                           </div>
@@ -152,7 +150,7 @@ export default function ProfilePage(props) {
                             value={60}
                           />
                           </GridItem>
-                          <GridItem xs={12} sm={12} md={6}>
+                          <GridItem xs={6}>
                             <div className={classes.title}>
                               <h4>Node Js</h4>
                             </div>
@@ -162,7 +160,7 @@ export default function ProfilePage(props) {
                               value={70}
                             />
                           </GridItem>
-                          <GridItem xs={12} sm={12} md={6}>
+                          <GridItem xs={6}>
                           <div className={classes.title}>
                             <h4>Python</h4>
                           </div>
@@ -172,7 +170,7 @@ export default function ProfilePage(props) {
                             value={50}
                           />
                           </GridItem>
-                          <GridItem xs={12} sm={12} md={6}>
+                          <GridItem xs={6}>
                             <div className={classes.title}>
                               <h4>Java</h4>
                             </div>
@@ -182,7 +180,7 @@ export default function ProfilePage(props) {
                               value={40}
                             />
                           </GridItem>
-                          <GridItem xs={12} sm={12} md={6}>
+                          <GridItem xs={6}>
                             <div className={classes.title}>
                               <h4>GIT</h4>
                             </div>
@@ -192,13 +190,13 @@ export default function ProfilePage(props) {
                               value={80}
                           />
                           </GridItem>
-                          <GridItem xs={12} sm={12} md={6}>
+                          <GridItem xs={6}>
                             <div className={classes.title}>
                               <h4>Angular</h4>
                             </div>
                             <CustomLinearProgress
                               variant="determinate"
-                              color="default"
+                              color="info"
                               value={50}
                           />
                           </GridItem>
