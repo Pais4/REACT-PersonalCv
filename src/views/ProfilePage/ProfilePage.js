@@ -16,7 +16,7 @@ import GridItem from "components/Grid/GridItem.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
 
-import profile from "assets/img/faces/christian.jpg";
+import profile from "assets/img/faces/perfil.jpg";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 import SectionCarousel from "views/Components/Sections/SectionCarousel";
