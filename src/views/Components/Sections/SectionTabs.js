@@ -39,9 +39,9 @@ export default function SectionTabs() {
                             <img src={platzi} className={classes.img}/>
                           </Grid>
                           <Grid item xs={6}>
-                            <p className={classes.page}>
-                              Udemy
-                            </p>
+                            <h4 className={classes.page}>
+                              Curso profesional de Git y Github
+                            </h4>
                           </Grid>
                         </Grid>
                       </div>
@@ -57,9 +57,9 @@ export default function SectionTabs() {
                             <img src={bancolombia} className={classes.img}/>
                           </Grid>
                           <Grid item xs={6}>
-                            <p className={classes.page}>
-                              Udemy
-                            </p>
+                            <h4 className={classes.page}>
+                              Pasantía Grupo Bancolombia
+                            </h4>
                           </Grid>
                         </Grid>
                       </div>
@@ -75,9 +75,9 @@ export default function SectionTabs() {
                             <img src={udemy} className={classes.img}/>
                           </Grid>
                           <Grid item xs={6}>
-                            <p className={classes.page}>
-                              Udemy
-                            </p>
+                            <h4 className={classes.page}>
+                              Node: De cero a experto
+                            </h4>
                           </Grid>
                         </Grid>
                       </div>
@@ -93,9 +93,9 @@ export default function SectionTabs() {
                             <img src={udemy} className={classes.img}/>
                           </Grid>
                           <Grid item xs={6}>
-                            <p className={classes.page}>
-                              Udemy
-                            </p>
+                            <h4 className={classes.page}>
+                              React de cero a experto (Hooks y MERN)
+                            </h4>
                           </Grid>
                         </Grid>
                       </div>
@@ -111,9 +111,9 @@ export default function SectionTabs() {
                             <img src={udemy} className={classes.img}/>
                           </Grid>
                           <Grid item xs={6}>
-                            <p className={classes.page}>
-                              Udemy
-                            </p>
+                            <h4 className={classes.page}>
+                              Creando un TripAdvisor de Restaurantes
+                            </h4>
                           </Grid>
                         </Grid>
                       </div>

@@ -8,12 +8,11 @@ import InfoIcon from '@material-ui/icons/Info';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import Favorite from "@material-ui/icons/Favorite";
 // core components
-import Header from "components/Header/Header.js";
+
 import Footer from "components/Footer/Footer.js";
 import Button from "components/CustomButtons/Button.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
 
@@ -59,6 +58,9 @@ export default function ProfilePage(props) {
                     </Button>
                     <Button justIcon link className={classes.margin5} href="https://www.linkedin.com/in/mateo-serna-795a85199/" target="_blank">
                       <i className={"fab fa-linkedin"} />
+                    </Button>
+                    <Button justIcon link className={classes.margin5} href="https://github.com/pais4" target="_blank">
+                    <i class="fab fa-github" />
                     </Button>
                   </div>
                 </div>

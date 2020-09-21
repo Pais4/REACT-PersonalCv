@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // material-ui core components
-import { List, ListItem } from "@material-ui/core";
+import { Button, List, ListItem } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
@@ -32,55 +32,24 @@ export default function Footer(props) {
         <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/?ref=mkr-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Creative Tim
-              </a>
+              <Button justIcon link className={classes.block} href="https://www.instagram.com/_teolopera/" target="_blank">
+                <i className={"fab fa-instagram"} />
+              </Button>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/presentation?ref=mkr-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                About us
-              </a>
+              <Button justIcon link className={classes.block} href="https://www.linkedin.com/in/mateo-serna-795a85199/" target="_blank">
+                <i className={"fab fa-linkedin"} />
+              </Button>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="http://blog.creative-tim.com/?ref=mkr-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Blog
-              </a>
+              <Button justIcon link className={classes.block} href="https://github.com/pais4" target="_blank">
+                <i class="fab fa-github" />
+              </Button>
             </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license?ref=mkr-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
-              </a>
-            </ListItem>
+            
           </List>
         </div>
-        <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=mkr-footer"
-            className={aClasses}
-            target="_blank"
-          >
-            Creative Tim
-          </a>{" "}
-          for a better web.
-        </div>
+        
       </div>
     </footer>
   );
